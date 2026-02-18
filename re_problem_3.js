@@ -1,7 +1,12 @@
 function electionResult(votes) {
+    // jodi input string na hoy thaole "Invalid" string korbe!!
+  if (typeof votes != "object") {
+    return "Invaild";
+    }
+    
     let mangoCount = 0;
     let bananaCount = 0;
-    
+
     for (let i = 0; i < votes.length; i += 1) {
         if (votes[i] === "mango") {
             mangoCount += 1;
