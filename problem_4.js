@@ -40,7 +40,7 @@ function validProposal(person1, person2) {
   let difference = Math.abs(person1 - person2);
   if (difference > 7) {
     return false;
-  }
+  }  
   // সব শর্ত পূরণ হলে true রিটার্ন করবে
   else {
     return true;

@@ -32,7 +32,7 @@ function willSuccces(marks) {
     return true;
   }
   else {
-    return true;
+    return false;
   }
 }
 console.log(willSuccces(["55, 75, 41, 33, 0, 87, 91, 30"]));
